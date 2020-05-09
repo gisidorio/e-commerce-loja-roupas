@@ -21,13 +21,28 @@ namespace e_commerce.Mvc.Controllers
         // GET: Product
         public ActionResult Index()
         {
-            ProductViewModel pr = new ProductViewModel();
+            var productsViewModel = new List<ProductViewModel>();
             List<Product> products = new List<Product>();
 
             products = _productRepository.GetAll();
 
+            #region TRANSFORMA DA ENTITY PARA VIEW MODEL
+            for (int i = 0; i < products.Count; i++)
+            {
+                var pViewModel = new ProductViewModel
+                {
+                    Id = products[i].Id,
+                    ProductName = products[i].ProductName,
+                    Description = products[i].Description,
+                    Activated = products[i].Activated
+                };
 
-            return View();
+                productsViewModel.Add(pViewModel);
+            }
+            #endregion
+
+
+            return View(productsViewModel);
         }
     }
 }

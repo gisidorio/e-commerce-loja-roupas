@@ -1,4 +1,4 @@
-﻿@model e-commerce.Mvc.ViewModels.ProductViewModel
+﻿@model List<e_commerce.Mvc.ViewModels.ProductViewModel>
 
 @{
     Layout = null;
@@ -9,11 +9,34 @@
 
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css"/>
     <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>         
+        <table class="table">
+            <thead class="bg-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Activated</th>
+                </tr>                
+            </thead>
+            <tbody>
+                @foreach (var produto in Model)
+                {   
+                <tr>
+                    <td>@produto.Id</td>
+                    <td>@produto.ProductName</td>
+                    <td>@produto.Description</td>
+                    <td>@produto.Activated</td>
+                </tr>
+                }                
+            </tbody>
+        </table>        
     </div>
 </body>
 </html>

@@ -1,0 +1,5 @@
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Domain\bin\Debug\e-commerce.Domain.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Domain\bin\Debug\e-commerce.Domain.pdb
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Domain\obj\Debug\e-commerce.Domain.csprojAssemblyReference.cache
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Domain\obj\Debug\e-commerce.Domain.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Domain\obj\Debug\e-commerce.Domain.pdb

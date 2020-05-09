@@ -1,0 +1,10 @@
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\bin\Debug\e-commerce.Infra.Data.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\bin\Debug\e-commerce.Infra.Data.pdb
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\bin\Debug\Dapper.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\bin\Debug\e-commerce.Domain.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\bin\Debug\e-commerce.Domain.pdb
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\bin\Debug\Dapper.xml
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\obj\Debug\e-commerce.Infra.Data.csprojAssemblyReference.cache
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\obj\Debug\e-commerce.Infra.Data.csproj.CopyComplete
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\obj\Debug\e-commerce.Infra.Data.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Infra.Data\obj\Debug\e-commerce.Infra.Data.pdb

@@ -12,6 +12,6 @@ namespace e_commerce.Domain.Entities
         public string ProductName { get; set; }
         public string Description { get; set; }
         public bool Activated { get; set; }
-        public Stock StockId { get; set; }
+        public int StockId { get; set; }
     }
 }
