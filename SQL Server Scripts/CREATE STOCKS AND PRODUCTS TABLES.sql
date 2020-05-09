@@ -1,0 +1,23 @@
+USE LOJA_ROUPAS
+GO
+
+CREATE TABLE Stocks
+(
+	Id			INT NOT NULL IDENTITY,
+	Amount		INT NOT NULL,
+	UnitPrice	FLOAT NOT NULL,
+	ProductName	VARCHAR(100) NOT NULL,
+	PRIMARY KEY (Id)
+)
+
+CREATE TABLE Products 
+(
+	Id					INT NOT NULL IDENTITY,
+	ProductName			VARCHAR(100) NOT NULL,
+	ProductDescription	TEXT,
+	Activated			BIT NOT NULL,
+	StockId				INT NOT NULL,
+	PRIMARY KEY (Id),
+	FOREIGN KEY (StockId) REFERENCES Stocks(Id)
+)
+
