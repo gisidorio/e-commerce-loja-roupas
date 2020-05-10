@@ -35,6 +35,7 @@
     <Compile Include="Repositories\Procedures.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\e-commerce.Domain\e-commerce.Domain.csproj">

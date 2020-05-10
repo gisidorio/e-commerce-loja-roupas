@@ -20,27 +20,27 @@ namespace e_commerce.Infra.Data.Repositories
             _conn = new SqlConnection(_connString);
         }
 
-        public void Delete(string procedure, object parameters = null)
+        public void ExecuteDelete(string procedure, object parameters = null)
         {
             _conn.Execute(procedure, parameters);
         }
 
-        public T Get(string procedure, object parameters = null)
+        public T Query(string procedure, object parameters = null)
         {
             return _conn.Query<T>(procedure, parameters).ToList().FirstOrDefault();
         }
 
-        public List<T> GetAll(string procedure, object parameters = null)
+        public List<T> QueryList(string procedure, object parameters = null)
         {
             return _conn.Query<T>(procedure, parameters).ToList();
         }
 
-        public void Save(string procedure, object parameters = null)
+        public void ExecuteSave(string procedure, object parameters = null)
         {
             _conn.Execute(procedure, parameters);
         }
 
-        public void Update(string procedure, object parameters = null)
+        public void ExecuteUpdate(string procedure, object parameters = null)
         {
             _conn.Execute(procedure, parameters);
         }

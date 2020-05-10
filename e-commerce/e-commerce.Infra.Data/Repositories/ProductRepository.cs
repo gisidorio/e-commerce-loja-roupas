@@ -13,7 +13,7 @@ namespace e_commerce.Infra.Data.Repositories
         {
             try
             {
-                base.Save(Procedures.SPI_PRODUCT, product);
+                base.ExecuteSave(Procedures.SPI_PRODUCT, product);
             }
             catch (Exception ex)
             {
@@ -31,7 +31,7 @@ namespace e_commerce.Infra.Data.Repositories
 
             try
             {
-                products = base.GetAll(Procedures.SPS_PRODUCT);
+                products = base.QueryList(Procedures.SPS_PRODUCT);
             }
             catch (Exception ex)
             {

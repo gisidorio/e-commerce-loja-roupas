@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace e_commerce.Domain.Interfaces
 {
-    public interface IProductRepository<T> : IRepositoryBase<Product>
+    public interface IUserRepository: IRepositoryBase<User>
     {
+        void Save(User entity);
+        User GetLoggedUser(User entity);
     }
 }

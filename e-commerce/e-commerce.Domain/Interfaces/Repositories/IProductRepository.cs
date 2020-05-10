@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace e_commerce.Domain.Interfaces
 {
-    public interface IStockRepository<T> : IRepositoryBase<Stock>
+    public interface IProductRepository : IRepositoryBase<Product>
     {
     }
 }

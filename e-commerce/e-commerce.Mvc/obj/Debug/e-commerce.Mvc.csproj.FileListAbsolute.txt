@@ -50,10 +50,14 @@ C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-com
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\roslyn\vbc.rsp
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\roslyn\VBCSCompiler.exe
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\e-commerce.Application.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\e-commerce.Domain.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\e-commerce.Infra.Data.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Ninject.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Ninject.Web.Common.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Ninject.Web.Mvc.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Helpers.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Mvc.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Razor.dll
@@ -61,8 +65,12 @@ C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-com
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Webpages.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Webpages.Razor.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Dapper.dll
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\e-commerce.Application.pdb
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\e-commerce.Domain.pdb
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\e-commerce.Infra.Data.pdb
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Ninject.xml
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Ninject.Web.Common.xml
+C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\Ninject.Web.Mvc.xml
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Razor.xml
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Webpages.xml
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Mvc\bin\System.Web.Webpages.Deployment.xml

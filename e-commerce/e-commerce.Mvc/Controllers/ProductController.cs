@@ -26,7 +26,7 @@ namespace e_commerce.Mvc.Controllers
 
             products = _productRepository.GetAll();
 
-            #region TRANSFORMA DA ENTITY PARA VIEW MODEL
+            #region TRANSFORMA ENTITY PARA VIEW MODEL
             for (int i = 0; i < products.Count; i++)
             {
                 var pViewModel = new ProductViewModel
@@ -40,7 +40,6 @@ namespace e_commerce.Mvc.Controllers
                 productsViewModel.Add(pViewModel);
             }
             #endregion
-
 
             return View(productsViewModel);
         }

@@ -1,4 +1,11 @@
-﻿using System;
+﻿using e_commerce.Application.Interfaces;
+using e_commerce.Domain.Interfaces;
+using e_commerce.Domain.Interfaces.Services;
+using e_commerce.Domain.Services;
+using e_commerce.Infra.Data.Repositories;
+using Microsoft.Web.Infrastructure.DynamicModuleHelper;
+using Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,7 +14,7 @@ using System.Web.Routing;
 
 namespace e_commerce.Mvc
 {
-    public class RouteConfig
+    public class RouteConfig 
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
@@ -16,8 +23,9 @@ namespace e_commerce.Mvc
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
             );
         }
+
     }
 }

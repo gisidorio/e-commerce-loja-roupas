@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/Login.css" />
+    <title>Loja de Roupas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <form action="/Home/Index" method="post" name="Login_Form" class="form-signin">
+                <h3 class="form-signin-heading">E-commerce Loja de Roupas</h3>
+                <hr class="colorgraph"><br>
+
+                <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
+                <input type="password" class="form-control" name="Password" placeholder="Password" required="" />
+
+                <button class="btn btn-lg btn-success btn-block" name="Submit" value="Login" type="Submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
