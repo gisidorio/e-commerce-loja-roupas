@@ -4,7 +4,6 @@ using e_commerce.Domain.Interfaces.Services;
 using e_commerce.Domain.Services;
 using e_commerce.Infra.Data.Repositories;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;

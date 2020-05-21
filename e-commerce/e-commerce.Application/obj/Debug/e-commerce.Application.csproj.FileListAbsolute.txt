@@ -6,3 +6,11 @@ C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-com
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.csproj.CopyComplete
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.dll
 C:\Users\Aline Gomes\Documents\Pichu\RepositorioGit\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.pdb
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\bin\Debug\e-commerce.Application.dll
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\bin\Debug\e-commerce.Application.pdb
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\bin\Debug\e-commerce.Domain.dll
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\bin\Debug\e-commerce.Domain.pdb
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.csprojAssemblyReference.cache
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.csproj.CopyComplete
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.dll
+C:\Users\gabri\Documents\e-commerce-loja-roupas\e-commerce\e-commerce.Application\obj\Debug\e-commerce.Application.pdb

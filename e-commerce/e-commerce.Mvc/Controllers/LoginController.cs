@@ -9,7 +9,7 @@ namespace e_commerce.Mvc.Controllers
 {
     public class LoginController : Controller
     {
-        public IUserAppService _userAppService;
+        private readonly IUserAppService _userAppService;
 
         public LoginController(IUserAppService userAppService)
         {
@@ -19,6 +19,7 @@ namespace e_commerce.Mvc.Controllers
         // GET: Login
         public ActionResult Index()
         {
+            //_userAppService.GetLoggedUser(null);
             return View();
         }
 

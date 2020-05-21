@@ -12,7 +12,22 @@ namespace e_commerce.Infra.Data.Repositories
     {
         public User GetLoggedUser(User entity)
         {
-            throw new NotImplementedException();
+            User user = null;
+
+            try
+            {
+                user = base.Query("", entity);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                base.Dispose();
+            }
+
+            return user;
         }
 
         public void Save(User entity)
