@@ -1,4 +1,5 @@
 ﻿using e_commerce.Application.Interfaces;
+using e_commerce.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,8 +26,23 @@ namespace e_commerce.Mvc.Controllers
 
         public ActionResult Authenticate(string username, string password)
         {
+            User user = new User
+            {
+                Username = username,
+                Password = password
+            };
 
-            return View();
+            User LoggedUser = _userAppService.GetLoggedUser(user);
+
+            if (LoggedUser != null)
+            {
+                Session["LoggedUser"] = LoggedUser;
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
     }
 }
